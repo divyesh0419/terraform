@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "---user adding----"
-sudo useradd dpanchal
+sudo useradd user
 echo "---set passowrd for a user----"
 sudo echo "oracle123" | passwd --stdin dpanchal
 echo "=====Apache Installation====="
